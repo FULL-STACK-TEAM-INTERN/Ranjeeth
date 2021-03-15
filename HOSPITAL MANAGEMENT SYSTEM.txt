@@ -1,0 +1,60 @@
+                                                               HOSPITAL MANAGEMENT SYSTEM [ REVISION 1.0 ] 
+
+
+OBJECTIVE:
+
+	The project “Hospital Management System” is aimed to design an application that provides an interface to maintain the clinical workflows in the hospital.
+        It involves administration of the hospital includes appointment management, patient management, staff management and report management.
+
+
+
+PROJECT MODULES:
+
+	This project involves three modules as follows:
+
+1.	ADMIN :
+                   a.	Admin involves in managing and providing access to the users like edit services, edit doctor details and patient details. 
+                        He controls the entire administration of the hospital. 
+                   b.	He can register/view/approve/reject/delete doctor 
+                   c.	He can admit/view/approve/reject patient’s appointment.
+
+             
+2.	DOCTOR :
+                   a.	Doctor can only view their patient details assigned to that doctor by admin.
+                   b. He can view the appointments booked by admin.
+                   c. He can delete the appointment, when doctor attended their   appointment.
+
+  
+
+3.	PATIENT: 
+
+        Patient will book an appointment by providing necessary details. They can view their appointment status, download invoice and check doctor details.   
+
+
+
+SCOPE OF THE PROJECT:
+
+                   a. Appointment for patients
+                   b. In patient and out patient report
+                   c. Manage doctor details
+                   d. Manage patient details
+                   e. Treatment report
+
+PROGRAMMING LANUGUAGES AND TOOLS TO BE USED:
+
+JAVA
+HTML AND CSS
+JAVASCRIPT AND TYPESCRIPT
+ANGULAR
+HIBERNATE
+SPRING
+APACHEMAVEN
+SQL / MONGODB
+
+
+USE CASES:
+
+1.	Doctor registration and admin providing access to the doctor
+2.	Patient booking an appointment and getting services by the doctor
+
+
