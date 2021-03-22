@@ -32,7 +32,7 @@ PROJECT MODULES:
 
 4.      RECEPTIONIST:
                    a. He will manage the all appointments that are being assigned to doctors.
-                   c.	He can admit/view/approve/reject patient’s appointment.
+                   b.	He can admit/view/approve/reject patient’s appointment.
 
 
 SCOPE OF THE PROJECT:
