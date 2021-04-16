@@ -1,0 +1,26 @@
+<div class="container-fluid banner">
+    <div class="container  side p-3 my-3 " >
+    <form>
+        <h1>
+          <b>  WELCOME TO BUDDY HOSPITALS</b>
+        </h1><br>
+        <a href="https://www.covid19india.org">click here to know about covid cases in India</a><br>
+        <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance">COVID-19 GUIDELINES</a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2> Receptionist Login</h2>
+        <div class="form-group">
+          <label for="name">USER NAME:</label>
+          <input type="name" class="form-control"  placeholder="Enter username" name="user name"> <!--we can use propertities of ng model and also add pattern-->
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control"  placeholder="Enter password" name="password">
+        </div>
+        <button type="submit" [routerLink]="['/receptionist']" class="btn btn-info">Login</button>
+        <div>
+          <small class="float-left" [routerLink]="['/registration']"> register here</small>
+        </div>
+      </form>
+    </div>
+
+

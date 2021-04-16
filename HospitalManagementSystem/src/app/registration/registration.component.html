@@ -1,0 +1,19 @@
+<div class="container-fluid banner">
+    <div class="container  side p-3 my-3 " >
+    <form>
+        <h1>
+            Welcome to Registration Page
+        </h1>
+        <br><br><br>    <br><br><br>    <br><br><br>    <br><br><br>    <br><br><br>    <br><br>
+    <h2> Receptionist Sign Up</h2>
+        <div class="form-group">
+          <label for="name">USER NAME:</label>
+          <input type="name" class="form-control"  placeholder="USER NAME" name="user name"> <!--we can use propertities of ng model and also add pattern-->
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control"  placeholder="Enter password" name="password">
+        </div>
+        <button type="submit" [routerLink]="['/login']" class="btn btn-info">Sign Up</button>
+      </form>
+    </div>
